@@ -19,21 +19,31 @@ let newQuote = oldQuote.split(',');
 console.log(newQuote) */
 
 //Number
-let age = 15; // number
+/* let age = 15; // number
 // parse number to string or cast number to string
 // 'ép kiểu' từ number sang string
-/* let numberToString = age.toString();
+let numberToString = age.toString();
 console.log(numberToString);
 console.log(typeof numberToString);
 
 let newAge = age + '';
 console.log(newAge);
-console.log(typeof newAge); */
+console.log(typeof newAge);
 
 // ToFixed: làm tròn, nếu nhỏ hơn .5 thì xuống ngược lại thì làm tròn lên
 let score = 3.6;
-console.log(score.toFixed());
+console.log(score.toFixed()); */
 
+
+//format number
+// let number = 1000000
+// let formatNumber = new Intl.NumberFormat('en-US', {
+//     style: 'currency',
+//     currency: 'USD',
+//     minimumFractionDigits: 0
+// })
+//
+// console.log(formatNumber.format(number))
 
 
 

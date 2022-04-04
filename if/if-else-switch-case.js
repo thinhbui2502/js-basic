@@ -1,5 +1,5 @@
 // If-else : rẽ nhánh
-let a = 10;
+/* let a = 10;
 let b = 5;
 let c = 15;
 
@@ -38,6 +38,11 @@ switch (day) {
         console.log("someday");
         break;
 }
+*/
 
-
-
+// Toán tử 3 ngôi
+let thinh = 26;
+let phuong = 25;
+// result = A ? B : C -> nếu A đúng thì result = B còn sai thì = C
+let message = thinh < phuong ? "Thinh nhỏ hon Phuong" : thinh === phuong ? "Thinh bang Phuong" : "Thinh lớn hơn Phuong";
+console.log(message)

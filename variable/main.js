@@ -42,3 +42,15 @@ function getArea(width, height) {
 }
 console.log(typeof getArea())
 
+//----------------oOo---------------
+// 3.Date
+let now = new Date();
+console.log(now)
+let today = now.getDate()
+console.log(today)
+let month = now.getMonth()
+console.log(month)
+let year = now.getFullYear()
+console.log(year)
+
+
